@@ -2,12 +2,12 @@ import util.control.Breaks._
 
 object Evaluacion {
     def main(args: Array[String]): Unit = {
-        println(esPar(7))
-        println(hayPares(List(1,3,5,7)))
-        println(afortunadoSiete(List(1,3,5,7, 7, 9, 0)))
-        println(esPalindromo("Anita lava la tina"))
-        println(equilibrio(List(1, 5, 3, 3)))
-        println(equilibrio(List(7,3,4)))
+        println("1: " + esPar(7))
+        println("2: " + hayPares(List(1,3,5,7)))
+        println("3: " + afortunadoSiete(List(1,3,5,7, 7, 9, 0)))
+        println("4: " + esPalindromo("Anita lava la tina"))
+        println("5: " + equilibrio(List(4, 3)))
+        println("6: " + equilibrio(List(7,3,4)))
     }
 
     // Verifica si un número es Par
