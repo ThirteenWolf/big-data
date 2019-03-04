@@ -1,0 +1,5 @@
+Id,Name,Sales,Age,Address,Date
+emp1,John,,32,,12/12/12
+emp2,,,,Some Street,02/02/02
+emp3,,345.0,21,Another Street,
+emp4,Cindy,456.0,,,08/08/08
